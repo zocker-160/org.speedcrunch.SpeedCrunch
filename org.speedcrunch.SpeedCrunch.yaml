@@ -1,7 +1,7 @@
 ---
 app-id: org.speedcrunch.SpeedCrunch
 runtime: org.kde.Platform
-runtime-version: '5.15-23.08'
+runtime-version: '5.15-24.08'
 sdk: org.kde.Sdk
 command: speedcrunch
 rename-desktop-file: speedcrunch.desktop
@@ -36,6 +36,8 @@ modules:
     path: startupwmclass.patch
   - type: patch
     path: screenshot-urls.patch
+  - type: patch
+    path: additional-appdata-2.patch
 
 cleanup:
 - /share/pixmaps
