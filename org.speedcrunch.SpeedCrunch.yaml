@@ -36,6 +36,8 @@ modules:
     path: startupwmclass.patch
   - type: patch
     path: screenshot-urls.patch
+  - type: patch
+    path: additional-appdata-2.patch
 
 cleanup:
 - /share/pixmaps
