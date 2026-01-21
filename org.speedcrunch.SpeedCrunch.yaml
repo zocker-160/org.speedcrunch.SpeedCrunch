@@ -16,6 +16,8 @@ finish-args:
 modules:
 - name: speedcrunch
   buildsystem: cmake-ninja
+config-opts:
+  - -DCMAKE_POLICY_VERSION_MINIMUM=3.5
   subdir: src
   post-install:
   - install -D -m 0644 ../gfx/speedcrunch.svg $FLATPAK_DEST/share/icons/hicolor/scalable/apps/speedcrunch.svg
