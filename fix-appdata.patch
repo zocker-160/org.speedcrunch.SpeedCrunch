@@ -1,5 +1,12 @@
+diff --git a/org.speedcrunch.SpeedCrunch b/org.speedcrunch.SpeedCrunch
+new file mode 160000
+index 00000000..2c1504c4
+--- /dev/null
++++ b/org.speedcrunch.SpeedCrunch
+@@ -0,0 +1 @@
++Subproject commit 2c1504c476329481a4b692cf9597dca5dc7f3b6d
 diff --git a/pkg/speedcrunch.appdata.xml b/pkg/speedcrunch.appdata.xml
-index cc3a33c8..565c25e5 100644
+index cc3a33c8..e8af452b 100644
 --- a/pkg/speedcrunch.appdata.xml
 +++ b/pkg/speedcrunch.appdata.xml
 @@ -1,10 +1,15 @@
@@ -57,7 +64,7 @@ index cc3a33c8..565c25e5 100644
      </screenshot>
      <screenshot>
        <caption>The built-in user manual</caption>
-@@ -95,16 +101,21 @@
+@@ -95,16 +101,22 @@
        <caption xml:lang="lt">Įtaisytas naudotojo vadovas</caption>
        <caption xml:lang="pt">O manual de usuário interno</caption>
        <caption xml:lang="zh">内置用户手册</caption>
@@ -68,6 +75,7 @@ index cc3a33c8..565c25e5 100644
  
 -  <url type="homepage">http://speedcrunch.org</url>
 +  <url type="homepage">https://heldercorreia.bitbucket.io/speedcrunch</url>
++  <url type="vcs-browser">https://bitbucket.org/heldercorreia/speedcrunch</url>
    <url type="bugtracker">https://bitbucket.org/heldercorreia/speedcrunch/issues</url>
 -  <url type="help">http://speedcrunch.org/introduction.html</url>
 +  <url type="help">https://heldercorreia.bitbucket.io/speedcrunch/introduction.html</url>
