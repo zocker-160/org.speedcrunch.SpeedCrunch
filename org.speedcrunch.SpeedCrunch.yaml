@@ -32,10 +32,10 @@ modules:
   - type: git
     url: https://bitbucket.org/heldercorreia/speedcrunch.git
     tag: release-0.12.0
-  - type: patch
-    path: additional-appdata.patch
-  - type: patch
-    path: additional-appdata-2.patch
+#  - type: patch
+#    path: additional-appdata.patch
+#  - type: patch
+#    path: additional-appdata-2.patch
   - type: patch
     path: screenshot-urls.patch
   - type: patch
