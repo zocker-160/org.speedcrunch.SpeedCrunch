@@ -8,7 +8,7 @@ rename-desktop-file: speedcrunch.desktop
 rename-appdata-file: speedcrunch.appdata.xml
 rename-icon: speedcrunch
 finish-args:
-- "--socket=x11"
+- "--socket=fallback-x11"
 - "--share=ipc"
 - "--socket=wayland"
 - "--device=dri"
@@ -35,11 +35,15 @@ modules:
   - type: patch
     path: additional-appdata.patch
   - type: patch
-    path: startupwmclass.patch
+    path: additional-appdata-2.patch
   - type: patch
     path: screenshot-urls.patch
   - type: patch
-    path: additional-appdata-2.patch
+    path: fix-wayland-icon.patch
+#  - type: patch
+#    path: startupwmclass.patch
+
+
 
 cleanup:
 - /share/pixmaps

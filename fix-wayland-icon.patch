@@ -1,0 +1,12 @@
+diff --git a/src/main.cpp b/src/main.cpp
+index e9dd40ff..bd57013f 100644
+--- a/src/main.cpp
++++ b/src/main.cpp
+@@ -25,6 +25,7 @@
+ int main(int argc, char* argv[])
+ {
+     QApplication application(argc, argv);
++    application.setDesktopFileName("org.speedcrunch.SpeedCrunch");
+ 
+     QCoreApplication::setApplicationName("SpeedCrunch");
+     QCoreApplication::setOrganizationDomain("speedcrunch.org");
