@@ -32,6 +32,7 @@ modules:
   - type: git
     url: https://bitbucket.org/heldercorreia/speedcrunch.git
     tag: release-0.12.0
+    commit: ea93b21f9498de620d6669c6048a2c501f3a13fe
   - type: patch
     path: fix-wayland-icon.patch
   - type: patch
